@@ -3,7 +3,7 @@ name: 福利吧自动签到
 on:
   schedule:
     # 北京时间 09:00 与 22:00（对应 UTC 01:00 / 14:00）
-    - cron: "0 1,14 * * *"
+    - cron: "0 17,14 * * *"
   workflow_dispatch: {}
 
 permissions:
